@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form with Default Values</title>
+</head>
+<body>
+
+    <h2>User Information Form</h2>
+    <form>
+        <label>First Name:</label>
+        <input type="text" name="firstName" value="John"><br><br>
+
+        <label>Age:</label>
+        <input type="number" name="age" value="25"><br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email" value="john@example.com"><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male" checked> Male
+        <input type="radio" name="gender" value="female"> Female<br><br>
+
+        <label>Country:</label>
+        <select name="country">
+            <option value="india">India</option>
+            <option value="usa" selected>USA</option>
+            <option value="uk">UK</option>
+        </select><br><br>
+
+        <label>Comments:</label><br>
+        <textarea name="comments" rows="4" cols="30">This is default text.</textarea><br><br>
+
+        <label>Date of Birth:</label>
+        <input type="date" name="dob" value="2000-01-01"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
